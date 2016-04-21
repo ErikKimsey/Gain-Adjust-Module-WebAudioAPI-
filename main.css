@@ -1,0 +1,92 @@
+body{
+    width:800px;
+    height:880px;
+    background-color: dimgray;
+    background-image: url(images/bkgrnd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+container{
+    display: flex;
+    width:720px;
+    height: 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: ;
+    transform: translate(-50%, -50%);
+    border:solid 26px rgba(211,211,211, 0.5);
+    border-radius: 26px;
+}
+
+#play{
+    width:360px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    background-color: rgba(11,11,11,0.5);
+    color: rgba(244,244,244, 0.6);
+    border: solid 1px gray;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 9.5em;
+    text-align:left;
+    border-radius: 18px 0px 0px 0px;
+    overflow:hidden;
+}
+
+#play:hover{
+    background-color: rgba(111, 111, 222, 0.5);
+    color:greenyellow;
+    border-color: ;
+}
+
+#slideContainer{
+    width:360px;
+    height: 210px;
+    
+    
+    border-radius: 0px 0px 18px 0px;
+    overflow: hidden;
+}
+
+#volUp{
+    width:360px;
+    height: 69px;
+    border: solid 1px white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    
+}
+
+#volDisplay{
+    width:360px;
+    height: 69px;
+    background-color: black;
+    color: greenyellow;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    border: solid 1px white;
+    
+}
+
+#volDown{
+    width:360px;
+    height: 69px;
+    border: solid 1px white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.volBtn:hover{
+    background-color: rgba(222,71,111,0.5);
+    color:greenyellow;
+    border-color: ;
+}
